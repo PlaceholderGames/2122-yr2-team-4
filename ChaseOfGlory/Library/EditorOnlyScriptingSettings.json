@@ -1,1 +1,1 @@
-{"m_DefineSymbols":{"m_Value":[],"m_Initialized":false},"m_AllowUnsafeCode":{"m_Value":false,"m_Initialized":false},"m_ScriptDebugInfoEnabled":{"m_Value":false,"m_Initialized":true}}
+{"m_DefineSymbols":{"m_Value":[{"first":1,"second":"FIRST_PERSON_CONTROLLER;ULTIMATE_CHARACTER_CONTROLLER_SHOOTER;FIRST_PERSON_SHOOTER"}],"m_Initialized":true},"m_AllowUnsafeCode":{"m_Value":false,"m_Initialized":false},"m_ScriptDebugInfoEnabled":{"m_Value":false,"m_Initialized":true}}
