@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Opsive/UltimateCharacterController/Demo/UFPSDemo.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
