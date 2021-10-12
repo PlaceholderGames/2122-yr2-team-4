@@ -1,0 +1,260 @@
+fileFormatVersion: 2
+guid: 07f33cee22a1b194e9acf9165c916191
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Anglerox_
+    100002: Anglerox_ Head
+    100004: Anglerox_ L Calf
+    100006: Anglerox_ L Clavicle
+    100008: Anglerox_ L Finger0
+    100010: Anglerox_ L Finger01
+    100012: Anglerox_ L Finger1
+    100014: Anglerox_ L Finger11
+    100016: Anglerox_ L Finger2
+    100018: Anglerox_ L Finger21
+    100020: Anglerox_ L Foot
+    100022: Anglerox_ L Forearm
+    100024: Anglerox_ L Hand
+    100026: Anglerox_ L Thigh
+    100028: Anglerox_ L Toe0
+    100030: Anglerox_ L UpperArm
+    100032: Anglerox_ Neck
+    100034: Anglerox_ Pelvis
+    100036: Anglerox_ R Calf
+    100038: Anglerox_ R Clavicle
+    100040: Anglerox_ R Finger0
+    100042: Anglerox_ R Finger01
+    100044: Anglerox_ R Finger1
+    100046: Anglerox_ R Finger11
+    100048: Anglerox_ R Finger2
+    100050: Anglerox_ R Finger21
+    100052: Anglerox_ R Foot
+    100054: Anglerox_ R Forearm
+    100056: Anglerox_ R Hand
+    100058: Anglerox_ R Thigh
+    100060: Anglerox_ R Toe0
+    100062: Anglerox_ R UpperArm
+    100064: Anglerox_ Spine
+    100066: Anglerox_ Spine1
+    100068: Anglerox_ Spine2
+    100070: Anglerox_Jaw
+    100072: Anglerox_SpikeLeftA_1
+    100074: Anglerox_SpikeLeftA_2
+    100076: Anglerox_SpikeLeftA_3
+    100078: Anglerox_SpikeLeftA_4
+    100080: Anglerox_SpikeLeftA_5
+    100082: Anglerox_SpikeLeftA_6
+    100084: Anglerox_SpikeLeftA_7
+    100086: Anglerox_SpikeLeftB_1
+    100088: Anglerox_SpikeLeftB_2
+    100090: Anglerox_SpikeLeftB_3
+    100092: Anglerox_SpikeLeftB_4
+    100094: Anglerox_SpikeLeftB_5
+    100096: Anglerox_SpikeLeftB_6
+    100098: Anglerox_SpikeLeftB_7
+    100100: Anglerox_SpikeLeftC_1
+    100102: Anglerox_SpikeLeftC_2
+    100104: Anglerox_SpikeLeftC_3
+    100106: Anglerox_SpikeLeftC_4
+    100108: Anglerox_SpikeLeftC_5
+    100110: Anglerox_SpikeRightA_1
+    100112: Anglerox_SpikeRightA_2
+    100114: Anglerox_SpikeRightA_3
+    100116: Anglerox_SpikeRightA_4
+    100118: Anglerox_SpikeRightA_5
+    100120: Anglerox_SpikeRightA_6
+    100122: Anglerox_SpikeRightA_7
+    100124: Anglerox_SpikeRightB_1
+    100126: Anglerox_SpikeRightB_2
+    100128: Anglerox_SpikeRightB_3
+    100130: Anglerox_SpikeRightB_4
+    100132: Anglerox_SpikeRightB_5
+    100134: Anglerox_SpikeRightB_6
+    100136: Anglerox_SpikeRightB_7
+    100138: Anglerox_SpikeRightC_1
+    100140: Anglerox_SpikeRightC_2
+    100142: Anglerox_SpikeRightC_3
+    100144: Anglerox_SpikeRightC_4
+    100146: Anglerox_SpikeRightC_5
+    100148: Anglerox_Tongue_1
+    100150: Anglerox_Tongue_2
+    100152: Anglerox_Tongue_3
+    100154: Anglerox_Tongue_4
+    100156: Anglerox_Tongue_5
+    100158: root
+    100160: //RootNode
+    100162: SK_Anglerox
+    400000: Anglerox_
+    400002: Anglerox_ Head
+    400004: Anglerox_ L Calf
+    400006: Anglerox_ L Clavicle
+    400008: Anglerox_ L Finger0
+    400010: Anglerox_ L Finger01
+    400012: Anglerox_ L Finger1
+    400014: Anglerox_ L Finger11
+    400016: Anglerox_ L Finger2
+    400018: Anglerox_ L Finger21
+    400020: Anglerox_ L Foot
+    400022: Anglerox_ L Forearm
+    400024: Anglerox_ L Hand
+    400026: Anglerox_ L Thigh
+    400028: Anglerox_ L Toe0
+    400030: Anglerox_ L UpperArm
+    400032: Anglerox_ Neck
+    400034: Anglerox_ Pelvis
+    400036: Anglerox_ R Calf
+    400038: Anglerox_ R Clavicle
+    400040: Anglerox_ R Finger0
+    400042: Anglerox_ R Finger01
+    400044: Anglerox_ R Finger1
+    400046: Anglerox_ R Finger11
+    400048: Anglerox_ R Finger2
+    400050: Anglerox_ R Finger21
+    400052: Anglerox_ R Foot
+    400054: Anglerox_ R Forearm
+    400056: Anglerox_ R Hand
+    400058: Anglerox_ R Thigh
+    400060: Anglerox_ R Toe0
+    400062: Anglerox_ R UpperArm
+    400064: Anglerox_ Spine
+    400066: Anglerox_ Spine1
+    400068: Anglerox_ Spine2
+    400070: Anglerox_Jaw
+    400072: Anglerox_SpikeLeftA_1
+    400074: Anglerox_SpikeLeftA_2
+    400076: Anglerox_SpikeLeftA_3
+    400078: Anglerox_SpikeLeftA_4
+    400080: Anglerox_SpikeLeftA_5
+    400082: Anglerox_SpikeLeftA_6
+    400084: Anglerox_SpikeLeftA_7
+    400086: Anglerox_SpikeLeftB_1
+    400088: Anglerox_SpikeLeftB_2
+    400090: Anglerox_SpikeLeftB_3
+    400092: Anglerox_SpikeLeftB_4
+    400094: Anglerox_SpikeLeftB_5
+    400096: Anglerox_SpikeLeftB_6
+    400098: Anglerox_SpikeLeftB_7
+    400100: Anglerox_SpikeLeftC_1
+    400102: Anglerox_SpikeLeftC_2
+    400104: Anglerox_SpikeLeftC_3
+    400106: Anglerox_SpikeLeftC_4
+    400108: Anglerox_SpikeLeftC_5
+    400110: Anglerox_SpikeRightA_1
+    400112: Anglerox_SpikeRightA_2
+    400114: Anglerox_SpikeRightA_3
+    400116: Anglerox_SpikeRightA_4
+    400118: Anglerox_SpikeRightA_5
+    400120: Anglerox_SpikeRightA_6
+    400122: Anglerox_SpikeRightA_7
+    400124: Anglerox_SpikeRightB_1
+    400126: Anglerox_SpikeRightB_2
+    400128: Anglerox_SpikeRightB_3
+    400130: Anglerox_SpikeRightB_4
+    400132: Anglerox_SpikeRightB_5
+    400134: Anglerox_SpikeRightB_6
+    400136: Anglerox_SpikeRightB_7
+    400138: Anglerox_SpikeRightC_1
+    400140: Anglerox_SpikeRightC_2
+    400142: Anglerox_SpikeRightC_3
+    400144: Anglerox_SpikeRightC_4
+    400146: Anglerox_SpikeRightC_5
+    400148: Anglerox_Tongue_1
+    400150: Anglerox_Tongue_2
+    400152: Anglerox_Tongue_3
+    400154: Anglerox_Tongue_4
+    400156: Anglerox_Tongue_5
+    400158: root
+    400160: //RootNode
+    400162: SK_Anglerox
+    2100000: M_Anglerox
+    4300000: SK_Anglerox
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: SK_Anglerox
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
