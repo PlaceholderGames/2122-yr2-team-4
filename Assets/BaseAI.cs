@@ -21,7 +21,7 @@ public class BaseAI : MonoBehaviour
         currentHealth = maxHetalth;
 
         anim = gameObject.GetComponent<Animator>();
-        NavMeshAgent agent = GetComponent<NavMeshAgent>(); _
+        NavMeshAgent agent = GetComponent<NavMeshAgent>();
         
     }
 
