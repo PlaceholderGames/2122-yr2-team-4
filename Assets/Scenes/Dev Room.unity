@@ -4140,13 +4140,24 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1326359709}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3cdca62b9c56704e9da3b3a1f752c6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   goal: {fileID: 1991702013}
   anim: {fileID: 1326359710}
+  agent: {fileID: 0}
+  player: {fileID: 0}
+  attackRange: 7
+  IsPlayer:
+    serializedVersion: 2
+    m_Bits: 0
+  TimeBetweenAttacks: 0
+  SightRange: 0
+  hasAttacked: 0
+  playerIsInSight: 0
+  playerInAttackRange: 0
 --- !u!1 &1328181266
 GameObject:
   m_ObjectHideFlags: 0
@@ -5741,6 +5752,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goal: {fileID: 1991702013}
   anim: {fileID: 1964494308}
+  agent: {fileID: 0}
+  player: {fileID: 1991701997}
+  attackRange: 7
+  IsPlayer:
+    serializedVersion: 2
+    m_Bits: 2147483648
+  TimeBetweenAttacks: 5
+  SightRange: 20
+  hasAttacked: 0
+  playerIsInSight: 0
+  playerInAttackRange: 0
 --- !u!114 &1964494304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5750,14 +5772,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1964494302}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d98dcee720a10ca4a9d1c01c9449d8d5, type: 3}
+  m_Script: {fileID: 11500000, guid: ddd446d4873e18841bd412e7f056630a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1991702013}
-  anim: {fileID: 1964494308}
-  maxHetalth: 1
-  currentHealth: 0
-  speed: 4
+  anim: {fileID: 0}
+  player: {fileID: 0}
 --- !u!195 &1964494305
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5772,7 +5791,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_StoppingDistance: 3
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -5790,7 +5809,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 2.5
+  m_Radius: 2
   m_Height: 9.193358
   m_Direction: 1
   m_Center: {x: 0, y: 5.069797, z: 0}
