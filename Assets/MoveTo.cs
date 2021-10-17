@@ -2,15 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using Opsive.UltimateCharacterController.Traits;
 
 public class MoveTo : MonoBehaviour
 {
     public Transform goal;
     public Animator anim;
+    [SerializeField]protected GameObject player;
 
     void Start()
     {
-        
+
+
     }
 
     void FixedUpdate()
@@ -22,6 +25,14 @@ public class MoveTo : MonoBehaviour
 
         if (agent.speed > 0) { anim.Play("WalkForward_RM"); }
 
-        if (dist < 3) { agent.isStopped = true; }
+        if (dist >10 || dist < 25)
+        {
+            agent.speed = 0;
+            anim.SetTrigger("Attack");
+
+            var health = player.GetComponent<Health>();
+            health.Damage(10);
+
+        }
     }
 }
