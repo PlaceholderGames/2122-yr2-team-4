@@ -1,21 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5744311368571010184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e74c32144565264eb86dc7514aca7f7, type: 3}
-  m_Name: NewSword
-  m_EditorClassIdentifier: 
-  m_ID: 2
-  m_CategoryIDs: 
-  m_Description: 
-  m_Capacity: 1
 --- !u!114 &-1283273268056595848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49,7 +33,23 @@ MonoBehaviour:
   m_ItemTypes:
   - {fileID: 7850782935446204570}
   - {fileID: -1283273268056595848}
-  - {fileID: -5744311368571010184}
+  - {fileID: 3895707187913132309}
+--- !u!114 &3895707187913132309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e74c32144565264eb86dc7514aca7f7, type: 3}
+  m_Name: NewGrenade
+  m_EditorClassIdentifier: 
+  m_ID: 2
+  m_CategoryIDs: 1bdf6d33
+  m_Description: 
+  m_Capacity: 2147483647
 --- !u!114 &4456585628443499879
 MonoBehaviour:
   m_ObjectHideFlags: 0
