@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NewSword
   m_EditorClassIdentifier: 
   m_ID: 2
-  m_CategoryIDs: 1bdf6d33
+  m_CategoryIDs: 
   m_Description: 
   m_Capacity: 1
 --- !u!114 &-1283273268056595848
