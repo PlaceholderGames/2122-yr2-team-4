@@ -18,6 +18,10 @@ public class LevelLoader : MonoBehaviour
             LoadNextLevel();
         
         }
+        if (!IsEnemyAlive()) {
+
+            LoadNextLevel();
+        }
     }
     public void LoadNextLevel() //this weill call in the Unity level manager and load the next scene
     {
@@ -33,6 +37,13 @@ public class LevelLoader : MonoBehaviour
         yield return new WaitForSeconds(LoadingTime);
 
         SceneManager.LoadScene(levelIndex);
+    
+    }
+
+    public bool IsEnemyAlive()
+    {
+        return GameObject.FindGameObjectWithTag("Enemy");
+    
     
     }
 }
