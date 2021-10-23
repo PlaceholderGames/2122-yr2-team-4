@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using Opsive.UltimateCharacterController.Traits;
-using Opsive.Shared.Events;
 
 public class MoveTo : MonoBehaviour
 {
@@ -17,6 +16,8 @@ public class MoveTo : MonoBehaviour
 
     [SerializeField] public float TimeBetweenAttacks;
     [SerializeField] public float SightRange;
+
+    [SerializeField] public string attack1, attack2, attack3, idle, walk;
 
     public bool hasAttacked;
     public bool playerIsInSight;
@@ -46,7 +47,7 @@ public class MoveTo : MonoBehaviour
 
         if (!playerIsInSight && !playerInAttackRange) 
         {
-            anim.Play("IdleLookAround");
+            anim.Play(idle);
 
         }
         if (playerIsInSight && !playerInAttackRange) { ChasePlayer(); }
@@ -60,7 +61,7 @@ public class MoveTo : MonoBehaviour
     void ChasePlayer()
     {
         agent.SetDestination(goal.position);
-        anim.Play("WalkForward");
+        anim.Play(walk);
 
     }
     void AttackPlayer() 
@@ -92,9 +93,9 @@ public class MoveTo : MonoBehaviour
       return  Random.Range(0, 3);
     }
 
-    void Attack_One() {
+    void Attack_One() { 
 
-        anim.Play("LeftHandAttack");
+        anim.Play(attack1);
 
         var health = player.GetComponent<Health>();
 
@@ -103,16 +104,16 @@ public class MoveTo : MonoBehaviour
         Invoke(nameof(ResetAttack), (attackl / 2));
 
         health.Damage(1f);
-        hasAttacked = true;
 
         Invoke(nameof(ResetAttack), (attackl / 2) + TimeBetweenAttacks);
+        hasAttacked = true;
 
     }
 
     void Attack_Two()
     {
 
-        anim.Play("2HitComboAttackForward_RM");
+        anim.Play(attack2);
 
         var health = player.GetComponent<Health>();
 
@@ -130,7 +131,7 @@ public class MoveTo : MonoBehaviour
     void Attack_Three()
     {
 
-        anim.Play("RightHandSmashAttack");
+        anim.Play(attack3);
 
         var health = player.GetComponent<Health>();
 
@@ -142,19 +143,6 @@ public class MoveTo : MonoBehaviour
         hasAttacked = true;
 
         Invoke(nameof(ResetAttack), (attackl / 2) + TimeBetweenAttacks);
-
-    }
-
-    void Death() {
-
-        anim.Play("Death");
-
-        var Death = anim.GetCurrentAnimatorStateInfo(0).length;
-
-        this.enabled = false;
-
-        Invoke(nameof(ResetAttack), Death);
-
 
     }
 
