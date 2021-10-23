@@ -4693,6 +4693,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monitors
       objectReference: {fileID: 0}
+    - target: {fileID: 114800805141368842, guid: b5bf2e4077598914b83fc5e4ca20f2f4, type: 3}
+      propertyPath: m_Character
+      value: 
+      objectReference: {fileID: 1991701997}
+    - target: {fileID: 114800805141368842, guid: b5bf2e4077598914b83fc5e4ca20f2f4, type: 3}
+      propertyPath: m_AlwaysVisible
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114800805141368842, guid: b5bf2e4077598914b83fc5e4ca20f2f4, type: 3}
+      propertyPath: m_ItemDefinition
+      value: 
+      objectReference: {fileID: 3895707187913132309, guid: b24c6098f3af56645a9aa3def139eaeb, type: 2}
     - target: {fileID: 224285287289726662, guid: b5bf2e4077598914b83fc5e4ca20f2f4, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
