@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using Opsive.UltimateCharacterController.Traits;
+using Opsive.Shared.Events;
 
 public class MoveTo : MonoBehaviour
 {
@@ -38,12 +39,10 @@ public class MoveTo : MonoBehaviour
     {
         //checking is the player in range
         playerIsInSight = Physics.CheckSphere(transform.position, SightRange, IsPlayer);
+
         //checking is player in attack range
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, IsPlayer);
 
-        //float dist = Vector3.Distance(goal.position, transform.position);
-
-        //behavior(dist);
 
         if (!playerIsInSight && !playerInAttackRange) 
         {
@@ -52,6 +51,9 @@ public class MoveTo : MonoBehaviour
         }
         if (playerIsInSight && !playerInAttackRange) { ChasePlayer(); }
         if (playerIsInSight && playerInAttackRange) { AttackPlayer(); }
+
+
+        
 
     }
 
@@ -69,17 +71,91 @@ public class MoveTo : MonoBehaviour
 
         if (!hasAttacked)
         {
-            anim.Play("LeftHandAttack");
+            Attack_Type();
 
-            var health = player.GetComponent<Health>();
-            health.Damage(1f);
+            if (Attack_Type() == 0) { Attack_One(); }
+            if (Attack_Type() == 1) { Attack_Two(); }
+            else 
+            {
+                Attack_Three();
 
-            hasAttacked = true;
-            Invoke(nameof(ResetAttack), TimeBetweenAttacks);
+
+            }
+
         }
     }
 
     void ResetAttack() { hasAttacked = false; }
 
+    public int Attack_Type() {
+
+      return  Random.Range(0, 3);
+    }
+
+    void Attack_One() {
+
+        anim.Play("LeftHandAttack");
+
+        var health = player.GetComponent<Health>();
+
+        var attackl = anim.GetCurrentAnimatorStateInfo(0).length;
+
+        Invoke(nameof(ResetAttack), (attackl / 2));
+
+        health.Damage(1f);
+        hasAttacked = true;
+
+        Invoke(nameof(ResetAttack), (attackl / 2) + TimeBetweenAttacks);
+
+    }
+
+    void Attack_Two()
+    {
+
+        anim.Play("2HitComboAttackForward_RM");
+
+        var health = player.GetComponent<Health>();
+
+        var attackl = anim.GetCurrentAnimatorStateInfo(0).length;
+
+        Invoke(nameof(ResetAttack), (attackl / 2));
+
+        health.Damage(1f);
+        hasAttacked = true;
+
+        Invoke(nameof(ResetAttack), (attackl / 2) + TimeBetweenAttacks);
+
+    }
+
+    void Attack_Three()
+    {
+
+        anim.Play("RightHandSmashAttack");
+
+        var health = player.GetComponent<Health>();
+
+        var attackl = anim.GetCurrentAnimatorStateInfo(0).length;
+
+        Invoke(nameof(ResetAttack), (attackl / 2));
+
+        health.Damage(1f);
+        hasAttacked = true;
+
+        Invoke(nameof(ResetAttack), (attackl / 2) + TimeBetweenAttacks);
+
+    }
+
+    void Death() {
+
+        anim.Play("Death");
+
+        var Death = anim.GetCurrentAnimatorStateInfo(0).length;
+
+        this.enabled = false;
+
+        Invoke(nameof(ResetAttack), Death);
+
+
+    }
 
 }

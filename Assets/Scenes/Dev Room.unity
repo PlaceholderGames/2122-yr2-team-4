@@ -510,7 +510,7 @@ RectTransform:
   m_Children:
   - {fileID: 1975426115}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4601,7 +4601,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8694943018831317037, guid: 523607d74500f59438ef678ce1d0b29d, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 8694943018831317037, guid: 523607d74500f59438ef678ce1d0b29d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4864,7 +4864,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 426067758178435807, guid: aec70ee47e2751447a74d70d740a1f8f, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 426067758178435807, guid: aec70ee47e2751447a74d70d740a1f8f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6283,99 +6283,6 @@ MonoBehaviour:
   m_DropItemEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!1001 &1944995014
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1010627442451239772, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_Name
-      value: ExplodingCrate (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1012701439617666078, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1012701439617666078, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -9.52
-      objectReference: {fileID: 0}
-    - target: {fileID: 1012701439617666078, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.52
-      objectReference: {fileID: 0}
-    - target: {fileID: 1012701439617666078, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 16.46
-      objectReference: {fileID: 0}
-    - target: {fileID: 1012701439617666078, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.33464175
-      objectReference: {fileID: 0}
-    - target: {fileID: 1012701439617666078, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.030756818
-      objectReference: {fileID: 0}
-    - target: {fileID: 1012701439617666078, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.9378904
-      objectReference: {fileID: 0}
-    - target: {fileID: 1012701439617666078, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.086201064
-      objectReference: {fileID: 0}
-    - target: {fileID: 1012701439617666078, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 10.503
-      objectReference: {fileID: 0}
-    - target: {fileID: 1012701439617666078, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 140.727
-      objectReference: {fileID: 0}
-    - target: {fileID: 1012701439617666078, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1031368468711767796, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1031368468711767796, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_DynamicOccludee
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1031368468711767796, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 00efc4ad6958dac41bad90463dfe4296, type: 2}
-    - target: {fileID: 1042387775592357778, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 4300000, guid: 07f33cee22a1b194e9acf9165c916191, type: 3}
-    - target: {fileID: 1073538494106387180, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_Size.x
-      value: 2.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1073538494106387180, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_Size.y
-      value: 6.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1073538494106387180, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122717203394423788, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_Attributes.Array.data[0].m_Value
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1122717203394423788, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
-      propertyPath: m_Attributes.Array.data[0].m_MaxValue
-      value: 10
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 336d3c1aeb1ce754aa8050effc071bc6, type: 3}
 --- !u!4 &1948446701 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400796, guid: 3b07b39ebb5f8c44c89fd416f004a8bc, type: 3}
@@ -6468,7 +6375,7 @@ MonoBehaviour:
   IsPlayer:
     serializedVersion: 2
     m_Bits: 2147483648
-  TimeBetweenAttacks: 5
+  TimeBetweenAttacks: 0
   SightRange: 20
   hasAttacked: 0
   playerIsInSight: 0
@@ -6501,7 +6408,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 3
+  m_StoppingDistance: 5
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -6519,7 +6426,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 2
+  m_Radius: 1.5
   m_Height: 9.193358
   m_Direction: 1
   m_Center: {x: 0, y: 5.069797, z: 0}
@@ -6535,7 +6442,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
