@@ -4093,7 +4093,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6037940565728574163, guid: 39e785ee841d9e44f86d50d8a7d9c36c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.052
+      value: 0.006
       objectReference: {fileID: 0}
     - target: {fileID: 6037940565728574163, guid: 39e785ee841d9e44f86d50d8a7d9c36c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4133,7 +4133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6230967664136185470, guid: 39e785ee841d9e44f86d50d8a7d9c36c, type: 3}
       propertyPath: m_PickupMessageText
-      value: hey
+      value: ammo woohoo
       objectReference: {fileID: 0}
     - target: {fileID: 6230967664136185470, guid: 39e785ee841d9e44f86d50d8a7d9c36c, type: 3}
       propertyPath: m_TriggerEnableDelay
@@ -4153,7 +4153,7 @@ PrefabInstance:
       objectReference: {fileID: 100000, guid: 8802e309e5a1a9149ac174d60c52b7a2, type: 3}
     - target: {fileID: 6230967664136185470, guid: 39e785ee841d9e44f86d50d8a7d9c36c, type: 3}
       propertyPath: m_ItemDefinitionAmounts.Array.data[0].Amount
-      value: 20
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 6230967664136185470, guid: 39e785ee841d9e44f86d50d8a7d9c36c, type: 3}
       propertyPath: m_ItemDefinitionAmounts.Array.data[0].ItemDefinition
@@ -4166,6 +4166,10 @@ PrefabInstance:
     - target: {fileID: 6476637496081279246, guid: 39e785ee841d9e44f86d50d8a7d9c36c, type: 3}
       propertyPath: m_Name
       value: AssaultRifleAmmoPickup (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6476637496081279246, guid: 39e785ee841d9e44f86d50d8a7d9c36c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39e785ee841d9e44f86d50d8a7d9c36c, type: 3}
@@ -4808,7 +4812,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 685038317346574390, guid: 042e48854e4ad4c42a4b01afce63dab4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.395
+      value: -0.319
       objectReference: {fileID: 0}
     - target: {fileID: 685038317346574390, guid: 042e48854e4ad4c42a4b01afce63dab4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4861,6 +4865,10 @@ PrefabInstance:
     - target: {fileID: 7002816632031029471, guid: 042e48854e4ad4c42a4b01afce63dab4, type: 3}
       propertyPath: m_Name
       value: AssaultRiflePickup 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7002816632031029471, guid: 042e48854e4ad4c42a4b01afce63dab4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7421606071107808667, guid: 042e48854e4ad4c42a4b01afce63dab4, type: 3}
       propertyPath: m_ScheduleRespawnOnDisable
