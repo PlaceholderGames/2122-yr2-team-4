@@ -106,25 +106,11 @@ MonoBehaviour:
     m_AudioClips: []
   m_PickupMessageText: 
   m_PickupMessageIcon: {fileID: 0}
-  m_ItemPickupSet:
-  - m_Item: {fileID: 0}
-    m_CategoryID: 862838555
-    m_ItemSet:
-      m_States:
-      - m_Name: Default
-        m_Preset: {fileID: 0}
-        m_BlockList: []
-        m_Default: 1
-      m_Slots:
-      - {fileID: 0}
-      - {fileID: 0}
-      m_State: 
-      m_Enabled: 1
-      m_CanSwitchTo: 1
-      m_DisabledIndex: -1
-    m_Default: 0
+  m_ItemPickupSet: []
   m_AlwaysPickup: 0
-  m_ItemDefinitionAmounts: []
+  m_ItemDefinitionAmounts:
+  - ItemDefinition: {fileID: -1283273268056595848, guid: b24c6098f3af56645a9aa3def139eaeb, type: 2}
+    Amount: 60
 --- !u!114 &4451007138790198201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,7 +133,7 @@ MonoBehaviour:
   m_MinRespawnTime: 2
   m_MaxRespawnTime: 3
   m_ScheduleRespawnOnDeath: 1
-  m_ScheduleRespawnOnDisable: 1
+  m_ScheduleRespawnOnDisable: 0
   m_RespawnAudioClipSet:
     m_Delay: 0
     m_AudioClips: []

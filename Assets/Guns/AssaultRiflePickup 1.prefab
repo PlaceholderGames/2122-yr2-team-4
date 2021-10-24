@@ -105,7 +105,9 @@ MonoBehaviour:
   m_PickupMessageIcon: {fileID: 0}
   m_ItemPickupSet: []
   m_AlwaysPickup: 0
-  m_ItemDefinitionAmounts: []
+  m_ItemDefinitionAmounts:
+  - ItemDefinition: {fileID: 3895707187913132309, guid: b24c6098f3af56645a9aa3def139eaeb, type: 2}
+    Amount: 3
 --- !u!114 &7421606071107808667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,7 +130,7 @@ MonoBehaviour:
   m_MinRespawnTime: 2
   m_MaxRespawnTime: 3
   m_ScheduleRespawnOnDeath: 1
-  m_ScheduleRespawnOnDisable: 1
+  m_ScheduleRespawnOnDisable: 0
   m_RespawnAudioClipSet:
     m_Delay: 0
     m_AudioClips: []
