@@ -16,6 +16,7 @@ public class MoveTo : MonoBehaviour
 
     [SerializeField] public float TimeBetweenAttacks;
     [SerializeField] public float SightRange;
+    [SerializeField] public float AttackDamage = 5f;
 
     [SerializeField] public string attack1, attack2, attack3, idle, walk;
 
@@ -103,7 +104,7 @@ public class MoveTo : MonoBehaviour
 
         Invoke(nameof(ResetAttack), (attackl / 2));
 
-        health.Damage(1f);
+        health.Damage(AttackDamage);
 
         Invoke(nameof(ResetAttack), (attackl / 2) + TimeBetweenAttacks);
         hasAttacked = true;
@@ -121,11 +122,11 @@ public class MoveTo : MonoBehaviour
 
         Invoke(nameof(ResetAttack), (attackl / 2));
 
-        health.Damage(1f);
-        hasAttacked = true;
+        health.Damage(AttackDamage);
 
         Invoke(nameof(ResetAttack), (attackl / 2) + TimeBetweenAttacks);
 
+        hasAttacked = true;
     }
 
     void Attack_Three()
@@ -139,10 +140,10 @@ public class MoveTo : MonoBehaviour
 
         Invoke(nameof(ResetAttack), (attackl / 2));
 
-        health.Damage(1f);
-        hasAttacked = true;
+        health.Damage(AttackDamage);
 
         Invoke(nameof(ResetAttack), (attackl / 2) + TimeBetweenAttacks);
+        hasAttacked = true;
 
     }
 
