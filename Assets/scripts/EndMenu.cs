@@ -18,6 +18,7 @@ public class EndMenu : MonoBehaviour
         {
             EnMenuUI.SetActive(true);
             //Time.timeScale = 0f;
+            Invoke(nameof(LoadMenu), 5f);
 
         }
         
