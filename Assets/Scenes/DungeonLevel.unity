@@ -27499,11 +27499,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1624244850752388234, guid: 8f9cabad3081ced4882fdd7779c33b42, type: 3}
       propertyPath: m_Attributes.Array.data[0].m_Value
-      value: 25
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 1624244850752388234, guid: 8f9cabad3081ced4882fdd7779c33b42, type: 3}
       propertyPath: m_Attributes.Array.data[0].m_MaxValue
-      value: 25
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 7093901527144961279, guid: 8f9cabad3081ced4882fdd7779c33b42, type: 3}
       propertyPath: m_RootOrder
@@ -31797,11 +31797,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1325234833003519648, guid: fca55d6783592534ca4444e4c3c9a1f6, type: 3}
       propertyPath: m_Attributes.Array.data[0].m_Value
-      value: 50
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 1325234833003519648, guid: fca55d6783592534ca4444e4c3c9a1f6, type: 3}
       propertyPath: m_Attributes.Array.data[0].m_MaxValue
-      value: 50
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 1325234833003519649, guid: fca55d6783592534ca4444e4c3c9a1f6, type: 3}
       propertyPath: m_Height
@@ -51371,11 +51371,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1834284911, guid: a7ff006332583414198b90bbb826ec18, type: 3}
       propertyPath: m_Attributes.Array.data[0].m_Value
-      value: 15
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 1834284911, guid: a7ff006332583414198b90bbb826ec18, type: 3}
       propertyPath: m_Attributes.Array.data[0].m_MaxValue
-      value: 15
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 1834284912, guid: a7ff006332583414198b90bbb826ec18, type: 3}
       propertyPath: m_Radius
@@ -67927,11 +67927,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2036105543, guid: 667c3aca025c7a746a82478f0bc51ac0, type: 3}
       propertyPath: m_Attributes.Array.data[0].m_Value
-      value: 15
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 2036105543, guid: 667c3aca025c7a746a82478f0bc51ac0, type: 3}
       propertyPath: m_Attributes.Array.data[0].m_MaxValue
-      value: 15
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 2036105546, guid: 667c3aca025c7a746a82478f0bc51ac0, type: 3}
       propertyPath: goal
