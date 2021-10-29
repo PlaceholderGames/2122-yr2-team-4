@@ -20,6 +20,7 @@ public class MoveTo : MonoBehaviour
 
     [SerializeField] public string attack1, attack2, attack3, idle, walk;
 
+    public AudioSource AudioSource;
     public bool hasAttacked;
     public bool playerIsInSight;
     public bool playerInAttackRange;
@@ -34,6 +35,7 @@ public class MoveTo : MonoBehaviour
         goal = GameObject.Find("Nolan").transform;
         //initializing navmesh agent
         agent = GetComponent<NavMeshAgent>();
+
 
     }
 
@@ -102,6 +104,7 @@ public class MoveTo : MonoBehaviour
 
         var attackl = anim.GetCurrentAnimatorStateInfo(0).length;
 
+        AudioSource.Play();
         Invoke(nameof(ResetAttack), (attackl / 2));
 
         health.Damage(AttackDamage);
@@ -120,6 +123,7 @@ public class MoveTo : MonoBehaviour
 
         var attackl = anim.GetCurrentAnimatorStateInfo(0).length;
 
+        AudioSource.Play();
         Invoke(nameof(ResetAttack), (attackl / 2));
 
         health.Damage(AttackDamage);
@@ -138,6 +142,7 @@ public class MoveTo : MonoBehaviour
 
         var attackl = anim.GetCurrentAnimatorStateInfo(0).length;
 
+        AudioSource.Play();
         Invoke(nameof(ResetAttack), (attackl / 2));
 
         health.Damage(AttackDamage);
